@@ -80,8 +80,7 @@ nav {
     width: 100%;
     font-size: 2em;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -136,8 +135,12 @@ img,video {
 li {
     list-style-type: none;
 }
-.card {
-   left: 50%
+
+.Card {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto
 }
 .howdy {
     max-width: 100%;
@@ -170,10 +173,10 @@ li {
 
 
 /* tablet breakpoint */
-@media (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 1199px) {
     .card {
-        left: 5%
-     }
+        width: 100%;
+    }
     .grid-container {
       grid-template-areas:
         'header'
@@ -181,5 +184,58 @@ li {
         'skills'
         'contact';
     }
-  }
+
+    nav {
+        width: 100%;
+        font-size: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+        white-space: nowrap;
+    }
+    .navlist{
+        list-style: none;
+    }
+      
+    .navlist a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: purple; font-weight: 900;
+    }
+
+    .card-img-top{
+        height: 100%;
+    }
+
+    .skills li{
+        display: inline-block;
+    }
+    .skills li::before {
+        content: "| ";
+      }
+    .skills li:first-child::before {
+        content: "";
+    }
+
+    video{
+        height: 50vh
+    }
+
+    img {
+        height: 20vh
+    }
+
+    .howdy h1 {
+        font-size: 35px
+    }
+
+    p {
+        font-size: 15px
+    }
+}
   
