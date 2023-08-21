@@ -3,8 +3,11 @@
 h1 {
     font-family: 'Barriecito', cursive;
     text-align: center;
+    color: #EFDCCE
 }
-
+p {
+    font-family: 'Handjet', cursive;
+}
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 7em;
@@ -14,10 +17,13 @@ body {
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 aside h1 {
-    color: white; font-size: 2em
+    color: #EFDCCE; font-size: 2em
 }
 footer h1 {
-    color: white
+    color: #EFDCCE;
+}
+.connect {
+    font-family: 'Barriecito', cursive;color: #EFDCCE;
 }
 .connect > a {
     display: inline-block;
@@ -64,11 +70,14 @@ footer h1 {
 .main {
     grid-area: main;
     text-align: center;
+    color: #EFDCCE
 }
   
 .skills {
     grid-area: skills;
     border-radius: 20px;
+    font-family: 'Handjet', cursive;
+    color: #EFDCCE
 }
   
 .contact{
@@ -121,10 +130,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 20px;
-}
-
-button:hover {
-    border: 2px solid black
 }
 
 img,video {
@@ -204,7 +209,7 @@ li {
       
     .navlist a {
         display: inline-block;
-        padding: 10px 15px;
+        padding: 20px 15px;
         text-decoration: none;
         color: purple; font-weight: 900;
     }
@@ -212,7 +217,6 @@ li {
     .card-img-top{
         height: 100%;
     }
-
     .skills li{
         display: inline-block;
     }
@@ -232,11 +236,15 @@ li {
     }
 
     .howdy h1 {
-        font-size: 35px
+        font-size: 100%
     }
 
     p {
         font-size: 15px
+    }
+
+    h6 {
+        font-size: 5px
     }
 }
   
