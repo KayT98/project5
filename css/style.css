@@ -193,7 +193,7 @@ li {
 }
 
 
-/* tablet breakpoint */
+/* mobile - tablet breakpoint */
 @media (min-width: 320px) and (max-width: 1199px) {
     .card {
         width: 100%;
