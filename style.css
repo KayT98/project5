@@ -243,8 +243,8 @@ li {
         font-size: 15px
     }
 
-    h6 {
-        font-size: 5px
+    .main h6 {
+        font-size: 10px
     }
 
     input[type=text], textarea {
