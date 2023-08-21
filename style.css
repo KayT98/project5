@@ -194,7 +194,7 @@ li {
 
     nav {
         width: 100%;
-        font-size: 100%;
+        font-size: 20px;
         display: flex;
         justify-content: start;
         position: sticky;
@@ -245,6 +245,29 @@ li {
 
     h6 {
         font-size: 5px
+    }
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        font-size: 20px;
+        color: red;
+        font-family: 'Andale Mono', monospace
+    }
+    button {
+        width: 100%;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 20px;
     }
 }
   
