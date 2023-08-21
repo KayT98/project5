@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Kanit:wght@300&family=Roboto:wght@900&family=Saira+Condensed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Handjet:wght@500&family=Kanit:wght@300&family=Noto+Serif+Vithkuqi&family=Roboto:wght@900&family=Saira+Condensed&display=swap');
 h1 {
-    font-family: 'Handjet', cursive;
+    font-family: 'Barriecito', cursive;
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ footer h1 {
   
 .main {
     grid-area: main;
-    text-align:center
+    text-align: center;
 }
   
 .skills {
@@ -78,7 +78,7 @@ footer h1 {
 
 nav {
     width: 100%;
-    font-size: 2em;
+    font-size: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,9 +94,10 @@ nav {
   
 .navlist a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 20px 15px;
     text-decoration: none;
-    color: purple; font-weight: 900
+    color: purple; font-weight: 900;
+    font-family: 'Handjet', cursive;
 }
 
 input[type=text], textarea {
@@ -188,10 +189,9 @@ li {
 
     nav {
         width: 100%;
-        font-size: 65%;
+        font-size: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
         position: sticky;
         top: 0;
         z-index: 1;
