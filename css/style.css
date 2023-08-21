@@ -216,7 +216,7 @@ li {
         top: 0;
         z-index: 1;
         background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
-        white-space: nowrap;
+        white-space: nowrap; border-bottom: 2px black solid
     }
     .navlist{
         list-style: none;
@@ -228,7 +228,7 @@ li {
     }
     .navlist a {
         display: inline-block;
-        padding: 20px 15px;
+        padding-left: 15px; padding-top: 20px;
         text-decoration: none;
         color: purple; font-weight: 900;
     }
