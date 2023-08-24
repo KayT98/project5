@@ -12,9 +12,12 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 10em;
     width: 100%;
+    cursor: url('../images/cursor.png'), auto
 }
 body {
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    //background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background: url(https://w.forfun.com/fetch/9f/9f2d0e3840ab815c6807d791aa58eb68.jpeg?w=1470&r=0.5625) no-repeat center center fixed;
+    background-size: cover;
 }
 aside h1 {
     color: #EFDCCE; font-size: 2em
@@ -95,12 +98,13 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    //background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background: black
 }
 .navlist a:hover {
     background: #EFDCCE;
     border-radius: 10px;
-    border: 5px solid black
+    cursor: url('../images/cursor.png'), auto
 }
 .navlist{
     list-style: none;
@@ -111,7 +115,7 @@ nav {
     display: inline-block;
     padding: 10px 50px;
     text-decoration: none;
-    color: purple; font-weight: 900;
+    color: gray; font-weight: 900;
     font-family: 'Handjet', cursive;
 }
 
@@ -192,6 +196,9 @@ li {
     width: auto;
 }
 
+.tiger:hover {
+    width: 20%; height: 20%;
+}
 
 /* mobile - tablet breakpoint */
 @media (min-width: 320px) and (max-width: 1199px) {
@@ -216,7 +223,8 @@ li {
         top: 0;
         z-index: 1;
         background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
-        white-space: nowrap; border-bottom: 2px black solid
+        white-space: nowrap; border-bottom: 2px black solid;
+        overflow-x: scroll;
     }
     .navlist{
         list-style: none;
