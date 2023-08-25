@@ -11,9 +11,9 @@ p {
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 10em;
-    width: 100%;
+    width: 100%; min-height: 100vh;
     cursor: url('../images/cursor.png'), auto;
-    overflow-x: hidden;height: 100%
+
 }
 body {
     //background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
