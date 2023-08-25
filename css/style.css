@@ -203,6 +203,19 @@ li {
 
 /* mobile - tablet breakpoint */
 @media (min-width: 320px) and (max-width: 1199px) {
+    html, body {
+        scroll-behavior: smooth;
+        scroll-padding-top: 10em;
+        cursor: url('../images/cursor.png'), auto; 
+        /**background-image: linear-gradient(to right, #fc5c7d, #6a82fb);**/
+        background: url('../images/pxfuel.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         box-sizing: border-box;
+         padding: 0; margin: 0
+    }
     .card {
         width: 100%;
     }
