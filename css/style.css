@@ -205,7 +205,9 @@ li {
 @media (min-width: 320px) and (max-width: 1199px) {
     html, body {
     background: url('../images/pxfuel.jpg') no-repeat center center fixed;
-    background-size: cover
+    background-size: cover;
+    height: 100vh;
+    padding-bottom:12px;
     }
     .card {
         width: 100%;
