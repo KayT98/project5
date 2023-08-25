@@ -13,12 +13,16 @@ html {
     scroll-padding-top: 10em;
     width: 100%; min-height: 100vh;
     cursor: url('../images/cursor.png'), auto;
+    
 
 }
 body {
     //background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     background: url('https://w.forfun.com/fetch/9f/9f2d0e3840ab815c6807d791aa58eb68.jpeg?w=1470&r=0.5625') no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
     
 }
 aside h1 {
