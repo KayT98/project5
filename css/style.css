@@ -11,10 +11,8 @@ p {
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 10em;
-    width: 100%; min-height: 100vh;
     cursor: url('../images/cursor.png'), auto;
-    
-
+    height:100vh
 }
 body {
     //background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
