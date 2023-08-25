@@ -12,12 +12,14 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 10em;
     width: 100%;
-    cursor: url('../images/cursor.png'), auto
+    cursor: url('../images/cursor.png'), auto;
+    overflow-x: hidden;height: 100%
 }
 body {
     //background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     background: url('https://w.forfun.com/fetch/9f/9f2d0e3840ab815c6807d791aa58eb68.jpeg?w=1470&r=0.5625') no-repeat center center fixed;
     background-size: cover;
+    
 }
 aside h1 {
     color: #EFDCCE; font-size: 2em
@@ -202,9 +204,6 @@ li {
 
 /* mobile - tablet breakpoint */
 @media (min-width: 320px) and (max-width: 1199px) {
-    body {
-        height: 100%;
-    }
     .card {
         width: 100%;
     }
