@@ -203,11 +203,9 @@ li {
 /* mobile - tablet breakpoint */
 @media (min-width: 320px) and (max-width: 1199px) {
     html, body {
-        background: url('../images/pxfuel.jpg') no-repeat center center fixed;
+    background: url('../images/pxfuel.jpg') no-repeat center center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
+    padding-bottom: 12px;
     }
     .card {
         width: 100%;
